@@ -1,6 +1,6 @@
 # Email IOC Extraction
 
-Script designed to aid email forensic analysis by extracting various artefacts from email eml files - IP addresses, URLs, Domains, and attachments. 
+Script designed to aid email forensic analysis by extracting various artefacts from email `.eml` files - IP addresses, URLs, Domains, and attachments. 
 Based on MalwareCube's Email IOC Extractor - https://github.com/MalwareCube/Email-IOC-Extractor/tree/main
 
 Version 1.2
