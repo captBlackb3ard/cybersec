@@ -31,7 +31,9 @@ This script is intended for analysis and research purposes only. Usage should co
 
 ## Usage
 The `email_ioc.py` script takes two parameters - the first is the email.eml file, and the second (optional) parameter is the AbuseIPDB API key.
+
 You will need to register on the [AbuseIPDB](https://www.abuseipdb.com/) website to create your own API key. The main advantage of providing the AbuseIPDB API key is the inclusion of an Abuse Score for any IP discovered.
+
 It is still recommended that you manually use additional resources to verify the domains, IPs, and URLs extracted by this script. 
 ```bash
 python3 email_ioc.py <~/path/suspected-email-file.eml> [abuseipdb-api-key]
