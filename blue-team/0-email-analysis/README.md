@@ -14,11 +14,11 @@ MalwareCube's Email IOC included the following features:
 + **IP and URL Defanging**
 + **IP Information Lookup (ipinfo.io)**
 
-_Features added to the Python Script_:
+_Features added to this Python Script_:
 + **Error Handling** - Errors are logged (error.log) to assist with troubleshooting.
-+ **IOC Extraction Output to File** - In addition to displaying the IOCs on the terminal/screen, the script will save the same output to a file.
++ **IOC Extraction Output to File** - In addition to displaying the IOCs on the terminal/screen, the script will save the same output to a file for future reference.
 + **AbuseIPDB API Support** - Basic threat intelligence integration for IP reputation check (see Usage section below).
-+ **Root Domain Extraction and WHOIS** - Root Domain WHOIS Age and Registrar checking (does not include email domain checks, which still need to be done manually).
++ **Root Domain Extraction and WHOIS** - Root Domain WHOIS Age and Registrar checking (does not include email domain checks; these still need to be done manually).
 + **Report Folder** - Creates a folder to store the IOC report and error.log file.
 
 ## Requirements
