@@ -1,11 +1,15 @@
 # Python SSH Credential Brute Force Script
 
 
+```
+
  ██████ ██    ██ ██████  ███████ ██████  ███████ ███████  ██████  ██████  ██████  ██████  ████████    ██████  ██       █████   ██████ ██   ██ 
 ██       ██  ██  ██   ██ ██      ██   ██ ██      ██      ██      ██      ██    ██ ██   ██    ██       ██   ██ ██      ██   ██ ██      ██  ██  
 ██        ████   ██████  █████   ██████  ███████ █████   ██      ██      ██ ██ ██ ██████     ██       ██████  ██      ███████ ██      █████   
 ██         ██    ██   ██ ██      ██   ██      ██ ██      ██      ██      ██ ██ ██ ██         ██       ██   ██ ██      ██   ██ ██      ██  ██  
  ██████    ██    ██████  ███████ ██   ██ ███████ ███████  ██████  ██████  █ ████  ██         ██    ██ ██████  ███████ ██   ██  ██████ ██   ██ 
+                                                                                                                                                                                                                                                                                      
+```
                                                                                                                                                                                                                                                                                       
 
 The script below is an improvement on [David Bombal's Python script](https://github.com/davidbombal/ssh_bruteforcing/blob/main/main.py) with the following added features:
