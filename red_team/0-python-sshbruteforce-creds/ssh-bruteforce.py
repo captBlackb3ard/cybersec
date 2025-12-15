@@ -155,11 +155,14 @@ def main():
     valid_creds = {}
 	# Track number credential combinatons
     cred_count = 1
-    # Add code to output progress percentage
+    # TODO: Add code to output progress percentage
     
     try:
         with open(args.usernames, 'r', encoding='utf-8') as ufile, \
              open(args.passwords, 'r', encoding='utf-8') as pfile:
+
+            #start performance tracking
+            start = time.perf_counter()
 
             logging.info(f"Processing username(s) file: {args.usernames}")
             logging.info(f"Process passwords file: {args.passwords}\n")
@@ -190,7 +193,12 @@ def main():
                 for username, password in valid_creds.items():
                     print("\n"+Colors.GREEN+"[>]"+Colors.RESET+" Success, valid credentials found: Username - "+Colors.CYAN+username+Colors.RESET+" and Password - "+Colors.CYAN+password+Colors.RESET+"\n")
                     logging.info(f"Valid credentials ({username}-{password}) added to log file")
-            logging.info(f"Execution complete: {cred_count - 1} credential combinations.")
+            
+            # Stop performace tracking
+            end = time.perf_counter()
+            elapsed_time = end - start
+
+            logging.info(f"Execution complete: {cred_count - 1} credential combinations in {elapsed_time:.4f} seconds.")
 
     except Exception as e:
         logging.critical(f"A critical error occurred during execution: {e}")
