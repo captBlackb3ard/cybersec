@@ -31,4 +31,4 @@ The above will set up the required Python virtual environment, after which, exec
 ## Screenshots
 ![Python SSH Bruteforce Credentials Setup & Execution](Python-SSHBruteforce-1.png)
 ![Python SSH Bruteforce Credentials Results](Python-SSHBruteforce-2.png)
-![Python SSH Bruteforce Credentials Results](Python-SSHBruteforce-2.png)
+![Python SSH Bruteforce Credentials Results](Python-SSHBruteforce-3.png)
