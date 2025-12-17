@@ -13,7 +13,8 @@
 The script below is an improvement on [David Bombal's Python script](https://github.com/davidbombal/ssh_bruteforcing/blob/main/main.py) with the following added features:
 + Submit a plaintext username file list,
 + Submit a plaintext password file list,
-+ Closes SSH connections after each attempt to help with rate limiting on the server, and
++ Closes SSH connections after each attempt to help with rate limiting on the server,
++ Find (display, and log) as many valid username-password combinations as possible, and
 + Logging (console and to a file - ssh_bruteforce.log, for future reference and debugging).
 
 I removed threading for this version of the script and opted to use file streaming to allow it to handle large files (~ 2 files with 100K rows of entries) instead of loading the entire file into RAM for processing. For files with 100K+ lines each, and the script will start encountering performance bottlenecks.
