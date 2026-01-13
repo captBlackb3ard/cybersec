@@ -21,7 +21,7 @@ I removed threading for this version of the script and opted to use file streami
 
 ## Usage
 Execute the following commands at the terminal:
-+ `python -m venv sshbrute_env`
++ `python3 -m venv sshbrute_env`
 + `source sshbrute_env/bin/activate`
 + `pip3 install -r sshbrute_requirements.txt`
 
